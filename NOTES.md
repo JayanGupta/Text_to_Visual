@@ -82,3 +82,7 @@ This document tracks engineering milestones, experiment logs, parameter optimiza
 - **Focus**: refactor: optimize chart rendering pipeline and error handling
 - **Technical Summary**: Added automatic schema fallback when invalid column aggregations are requested.
 
+### Milestone Log - 2026-05-14 (10:45)
+- **Focus**: docs: update LLM SQL and Vega-Lite specification generator
+- **Technical Summary**: Configured zero-shot chart generation from natural language business queries.
+
