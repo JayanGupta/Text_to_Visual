@@ -9,7 +9,7 @@
 
 - **Natural Language Queries** — Ask things like *"Show top 10 by sales"* or *"Distribution of ages"*
 - **Works with Any CSV** — Not locked to any domain. Sales, HR, finance, sports — upload and go
-- **Powered by Gemini 2.5 Flash** — Fast, accurate query-to-chart translation
+- **Powered by Gemini 3.5 Flash** — Fast, accurate query-to-chart translation
 - **5 Chart Types** — Bar, Line, Scatter, Pie, Histogram — picked automatically
 - **API Key in UI** — No `.env` files needed; paste your key directly in the sidebar
 - **Premium Dark UI** — Built with Streamlit, styled for a polished experience
