@@ -60,5 +60,5 @@ class LogicEngine:
     def execute_logic(self, plan: Dict[str, Any]) -> pd.DataFrame:
         import numpy as np
         local_vars = {'df': self.df, 'pd': pd, 'np': np}
-        exec(plan['pandas_code'], {"__builtins__": None, "pd": pd, "np": np}, local_vars)
+        exec(plan['pandas_code'], {"__builtins__": __builtins__, "pd": pd, "np": np}, local_vars)
         return local_vars['result_df']
